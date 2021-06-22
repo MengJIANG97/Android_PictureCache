@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="三级缓存"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btinternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络缓存"/>
+    <Button
+        android:id="@+id/btdisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本地缓存"/>
+    <Button
+        android:id="@+id/btcache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存缓存"/>
+
+</LinearLayout>
